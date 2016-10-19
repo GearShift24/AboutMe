@@ -17,75 +17,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="oYT-f6-zpH">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-14" y="-13" width="414" height="818"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="blueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="oYT-f6-zpH">
+                                <rect key="frame" x="-14" y="-13" width="414" height="818"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="-14" y="0.0" width="414" height="800"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SWIPE DOWN FOR INFO!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUH-dn-bHG">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ShazamLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mDT-AW-Vt1">
+                                <rect key="frame" x="38" y="132" width="525" height="438"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-73" y="85" width="533" height="536"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SWIPE DOWN FOR INFO!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUH-dn-bHG">
+                                <rect key="frame" x="49" y="578" width="303" height="43"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="49" y="578" width="303" height="43"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SWIPE UP TO GO BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcQ-T9-DIc">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SWIPE UP TO GO BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcQ-T9-DIc">
+                                <rect key="frame" x="66" y="629" width="269" height="32"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="66" y="629" width="269" height="32"/>
-                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShazamLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mDT-AW-Vt1">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-62" y="132" width="525" height="438"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josephLogo" translatesAutoresizingMaskIntoConstraints="NO" id="4qU-q5-Z4F">
+                                <rect key="frame" x="14" y="5" width="372" height="135"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="josephLogo" translatesAutoresizingMaskIntoConstraints="NO" id="4qU-q5-Z4F">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="5" width="372" height="135"/>
-                                </variation>
-                            </imageView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="moN-Xr-DUq">
-                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="moN-Xr-DUq">
+                                <rect key="frame" x="145" y="690" width="96" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="145" y="690" width="96" height="37"/>
-                                </variation>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="oYT-f6-zpH"/>
-                                <exclude reference="CUH-dn-bHG"/>
-                                <exclude reference="EcQ-T9-DIc"/>
-                                <exclude reference="mDT-AW-Vt1"/>
-                                <exclude reference="4qU-q5-Z4F"/>
-                                <exclude reference="moN-Xr-DUq"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="oYT-f6-zpH"/>
-                                <include reference="CUH-dn-bHG"/>
-                                <include reference="EcQ-T9-DIc"/>
-                                <include reference="mDT-AW-Vt1"/>
-                                <include reference="4qU-q5-Z4F"/>
-                                <include reference="moN-Xr-DUq"/>
-                            </mask>
-                        </variation>
+                        <constraints>
+                            <constraint firstItem="oYT-f6-zpH" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="5Fx-Fy-fAZ"/>
+                            <constraint firstItem="oYT-f6-zpH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="SN4-eC-cJC"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="YvY-J5-yBm" appends="YES" id="8qr-u4-T2w"/>
                             <outletCollection property="gestureRecognizers" destination="BZG-fN-Xx3" appends="YES" id="Xy4-9m-Whn"/>
@@ -95,16 +67,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="YvY-J5-yBm">
                     <connections>
-                        <segue destination="Hhc-Me-4fj" kind="show" id="EoY-cm-4ex"/>
+                        <segue destination="Hhc-Me-4fj" kind="presentation" id="EoY-cm-4ex"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="BZG-fN-Xx3">
                     <connections>
-                        <segue destination="KDw-rA-EPZ" kind="show" id="E79-I6-G9q"/>
+                        <segue destination="KDw-rA-EPZ" kind="presentation" id="E79-I6-G9q"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="177" y="429"/>
+            <point key="canvasLocation" x="247.5" y="429"/>
         </scene>
         <!--Mountain Biking-->
         <scene sceneID="Cfc-kn-636">
@@ -118,55 +90,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trek20" translatesAutoresizingMaskIntoConstraints="NO" id="ZFc-Fh-fPb">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="32" y="121" width="337" height="297"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trek20" translatesAutoresizingMaskIntoConstraints="NO" id="ZFc-Fh-fPb">
+                                <rect key="frame" x="32" y="121" width="337" height="297"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bikingLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-5m-qQl">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="82" y="-8" width="240" height="128"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bikingLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-5m-qQl">
+                                <rect key="frame" x="82" y="-8" width="240" height="128"/>
                             </imageView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="gPb-df-SGK">
-                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="gPb-df-SGK">
+                                <rect key="frame" x="132" y="702" width="96" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="702" width="96" height="37"/>
-                                </variation>
                             </pageControl>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r6j-SM-PtC">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r6j-SM-PtC">
+                                <rect key="frame" x="43" y="442" width="319" height="249"/>
                                 <string key="text">As a person who uses a lot of computers you may not guess this about me, but I love to mountain bike. It is a hobby that I piked up about two years ago in junction with my brother and durrng the years I have gone down a lot of mountains. Every time I go down the experience is thrilling and I believe myself to be pretty good at it. Overall its a fun and quick paced thing to do that also gets me out of the house at times.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="43" y="442" width="319" height="249"/>
-                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ZFc-Fh-fPb"/>
-                                <exclude reference="xVb-5m-qQl"/>
-                                <exclude reference="gPb-df-SGK"/>
-                                <exclude reference="r6j-SM-PtC"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="ZFc-Fh-fPb"/>
-                                <include reference="xVb-5m-qQl"/>
-                                <include reference="gPb-df-SGK"/>
-                                <include reference="r6j-SM-PtC"/>
-                            </mask>
-                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="flW-Lq-Zod" appends="YES" id="jyt-TG-uqV"/>
                             <outletCollection property="gestureRecognizers" destination="x5d-Pk-88N" appends="YES" id="SGL-gL-hJt"/>
@@ -176,12 +120,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sk7-gw-F7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="flW-Lq-Zod">
                     <connections>
-                        <segue destination="3J1-un-Lic" kind="show" id="Flk-Oq-7Vq"/>
+                        <segue destination="3J1-un-Lic" kind="presentation" id="Flk-Oq-7Vq"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="x5d-Pk-88N">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="xeS-uk-CT7"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="xeS-uk-CT7"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -199,73 +143,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="massBackground" translatesAutoresizingMaskIntoConstraints="NO" id="dJv-kp-xYB">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="massBackground" translatesAutoresizingMaskIntoConstraints="NO" id="dJv-kp-xYB">
+                                <rect key="frame" x="-5" y="0.0" width="405" height="800"/>
                                 <gestureRecognizers/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-5" y="0.0" width="405" height="800"/>
-                                </variation>
                             </imageView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="VVV-4W-2py">
-                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="VVV-4W-2py">
+                                <rect key="frame" x="140" y="691" width="120" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="140" y="691" width="120" height="37"/>
-                                </variation>
                             </pageControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueCircle" translatesAutoresizingMaskIntoConstraints="NO" id="Jem-oe-RfP">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-9" y="66" width="409" height="311"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueCircle" translatesAutoresizingMaskIntoConstraints="NO" id="Jem-oe-RfP">
+                                <rect key="frame" x="-9" y="66" width="409" height="311"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eYv-op-6Te">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">As one may have guessed, im a lover of video games along with computers. Specificly I love to play games on the PC such as Mass Effect, Overwatch, League of Legends and more. I often play these with a friend group of three to four others and love the social interaction within them. Personally these have always been a light of enjoyment in my life and keep me going when I need a positive brain booster.</string>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="videoGameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="sIG-87-5eE">
+                                <rect key="frame" x="20" y="6" width="360" height="93"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="massEffect3" translatesAutoresizingMaskIntoConstraints="NO" id="dsQ-PX-geu">
+                                <rect key="frame" x="71" y="378" width="259" height="271"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eYv-op-6Te">
+                                <rect key="frame" x="58" y="127" width="309" height="217"/>
+                                <string key="text">As one may have guessed, im a lover of video games along with computers. Specificly I love to play games on the PC such as Mass Effect, Overwatch, League of Legends and more. I often play these with a friend group of three to four others and love the social interaction within them. Personally these have always been a huge amount of enjoyment in my life and keep me going when I need a brain booster.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="55" y="123" width="310" height="217"/>
-                                </variation>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoGameLogo" translatesAutoresizingMaskIntoConstraints="NO" id="sIG-87-5eE">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="6" width="360" height="93"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="massEffect3" translatesAutoresizingMaskIntoConstraints="NO" id="dsQ-PX-geu">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <gestureRecognizers/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="71" y="378" width="259" height="271"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="dJv-kp-xYB"/>
-                                <exclude reference="VVV-4W-2py"/>
-                                <exclude reference="Jem-oe-RfP"/>
-                                <exclude reference="eYv-op-6Te"/>
-                                <exclude reference="sIG-87-5eE"/>
-                                <exclude reference="dsQ-PX-geu"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="dJv-kp-xYB"/>
-                                <include reference="VVV-4W-2py"/>
-                                <include reference="Jem-oe-RfP"/>
-                                <include reference="eYv-op-6Te"/>
-                                <include reference="sIG-87-5eE"/>
-                                <include reference="dsQ-PX-geu"/>
-                            </mask>
-                        </variation>
+                        <constraints>
+                            <constraint firstItem="dJv-kp-xYB" firstAttribute="width" secondItem="QIq-98-dK0" secondAttribute="width" id="4VC-0e-QAa"/>
+                            <constraint firstItem="dJv-kp-xYB" firstAttribute="height" secondItem="QIq-98-dK0" secondAttribute="height" id="ZZY-64-Yex"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="eRT-Q2-Kye" appends="YES" id="iff-XI-yfq"/>
                             <outletCollection property="gestureRecognizers" destination="DOi-RY-UIT" appends="YES" id="Hqt-eW-eVX"/>
@@ -275,12 +185,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w6J-pf-SAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="eRT-Q2-Kye">
                     <connections>
-                        <segue destination="qHc-Aj-U11" kind="show" id="bcG-Xn-wPO"/>
+                        <segue destination="qHc-Aj-U11" kind="presentation" id="bcG-Xn-wPO"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="DOi-RY-UIT">
                     <connections>
-                        <segue destination="Hhc-Me-4fj" kind="show" id="G3S-64-sig"/>
+                        <segue destination="Hhc-Me-4fj" kind="presentation" id="G3S-64-sig"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -298,55 +208,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="audioImage" translatesAutoresizingMaskIntoConstraints="NO" id="zAP-QL-m9b">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="41" y="355" width="319" height="245"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="audioImage" translatesAutoresizingMaskIntoConstraints="NO" id="zAP-QL-m9b">
+                                <rect key="frame" x="41" y="355" width="319" height="245"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bn1-c9-zsn">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bn1-c9-zsn">
+                                <rect key="frame" x="27" y="125" width="353" height="229"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">In my past I have done quite a number of projects and videos using audio and video editting. This may vary from youtube videos to videos for a relatives buisness. Changing up sound and cutting / editting video has always interested me and I still enjoy working on these projects often. Im not at a professional level, but it is a fun thing to do that has some profit.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="27" y="125" width="353" height="229"/>
-                                </variation>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="audioNvideo" translatesAutoresizingMaskIntoConstraints="NO" id="C6L-WN-erf">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="27" y="0.0" width="353" height="117"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="audioNvideo" translatesAutoresizingMaskIntoConstraints="NO" id="C6L-WN-erf">
+                                <rect key="frame" x="27" y="0.0" width="353" height="117"/>
                             </imageView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="8d3-9b-Gvw">
-                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="8d3-9b-Gvw">
+                                <rect key="frame" x="152" y="702" width="96" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="152" y="702" width="96" height="37"/>
-                                </variation>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="zAP-QL-m9b"/>
-                                <exclude reference="bn1-c9-zsn"/>
-                                <exclude reference="C6L-WN-erf"/>
-                                <exclude reference="8d3-9b-Gvw"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="zAP-QL-m9b"/>
-                                <include reference="bn1-c9-zsn"/>
-                                <include reference="C6L-WN-erf"/>
-                                <include reference="8d3-9b-Gvw"/>
-                            </mask>
-                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="FRm-H0-jYw" appends="YES" id="dSo-Hz-sk5"/>
                             <outletCollection property="gestureRecognizers" destination="pVZ-ah-a3M" appends="YES" id="vcP-HD-JAN"/>
@@ -356,16 +238,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ii-dd-NlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="FRm-H0-jYw">
                     <connections>
-                        <segue destination="KDw-rA-EPZ" kind="show" id="W8X-96-x9b"/>
+                        <segue destination="KDw-rA-EPZ" kind="presentation" id="W8X-96-x9b"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="pVZ-ah-a3M">
                     <connections>
-                        <segue destination="3J1-un-Lic" kind="show" id="aaz-Cs-7Ck"/>
+                        <segue destination="3J1-un-Lic" kind="presentation" id="aaz-Cs-7Ck"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="820.5" y="1227.75"/>
+            <point key="canvasLocation" x="540" y="1163.25"/>
         </scene>
         <!--Social Media-->
         <scene sceneID="MbU-JC-lta">
@@ -379,64 +261,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueLineBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vn6-3C-2PT">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="blueLineBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vn6-3C-2PT">
+                                <rect key="frame" x="-7" y="0.0" width="407" height="800"/>
                                 <gestureRecognizers/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-7" y="0.0" width="407" height="800"/>
-                                </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="socialMediaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hxp-TH-ZgB">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="18" y="11" width="365" height="139"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="socialMediaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hxp-TH-ZgB">
+                                <rect key="frame" x="18" y="11" width="365" height="139"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v8c-r6-pSC">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="165" width="339" height="321"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v8c-r6-pSC">
+                                <rect key="frame" x="31" y="165" width="339" height="321"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-98-r03">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-98-r03">
+                                <rect key="frame" x="38" y="504" width="332" height="189"/>
                                 <string key="text">I often use social media for fun and for buisness. With the media I usually focus on updating people with the latest news or I supply an audience with the freshest memes. I have amassed 6k followers on Twitter from doing this and I plan on continuing. I prefer websites like twitter or youtube for social media but facebook is fine as well for my  work.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="38" y="504" width="332" height="189"/>
-                                </variation>
                             </textView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="Zma-3c-Ewt">
-                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="Zma-3c-Ewt">
+                                <rect key="frame" x="135" y="710" width="138" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="135" y="710" width="138" height="37"/>
-                                </variation>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="vn6-3C-2PT"/>
-                                <exclude reference="hxp-TH-ZgB"/>
-                                <exclude reference="v8c-r6-pSC"/>
-                                <exclude reference="9rg-98-r03"/>
-                                <exclude reference="Zma-3c-Ewt"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="vn6-3C-2PT"/>
-                                <include reference="hxp-TH-ZgB"/>
-                                <include reference="v8c-r6-pSC"/>
-                                <include reference="9rg-98-r03"/>
-                                <include reference="Zma-3c-Ewt"/>
-                            </mask>
-                        </variation>
+                        <constraints>
+                            <constraint firstItem="vn6-3C-2PT" firstAttribute="height" secondItem="PU1-nu-XEY" secondAttribute="height" id="LpD-9X-euA"/>
+                            <constraint firstItem="vn6-3C-2PT" firstAttribute="width" secondItem="PU1-nu-XEY" secondAttribute="width" id="NiX-eN-alm"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="wIl-iv-a7l" appends="YES" id="khd-TW-5hD"/>
                             <outletCollection property="gestureRecognizers" destination="wMx-vS-dIO" appends="YES" id="bS6-BO-bsf"/>
@@ -446,16 +299,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Elc-5J-eVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="down" id="wIl-iv-a7l">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="ZwZ-CR-4z7"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="ZwZ-CR-4z7"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="wMx-vS-dIO">
                     <connections>
-                        <segue destination="qHc-Aj-U11" kind="show" id="JmH-08-dtc"/>
+                        <segue destination="qHc-Aj-U11" kind="presentation" id="JmH-08-dtc"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1623" y="1163.25"/>
+            <point key="canvasLocation" x="1243.5" y="1163.25"/>
         </scene>
     </scenes>
     <resources>
@@ -475,10 +328,10 @@
         <image name="videoGameLogo" width="1229" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aaz-Cs-7Ck"/>
         <segue reference="bcG-Xn-wPO"/>
-        <segue reference="G3S-64-sig"/>
+        <segue reference="aaz-Cs-7Ck"/>
         <segue reference="ZwZ-CR-4z7"/>
-        <segue reference="W8X-96-x9b"/>
+        <segue reference="E79-I6-G9q"/>
+        <segue reference="EoY-cm-4ex"/>
     </inferredMetricsTieBreakers>
 </document>
