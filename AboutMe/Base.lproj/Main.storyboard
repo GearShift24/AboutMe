@@ -328,10 +328,10 @@
         <image name="videoGameLogo" width="1229" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bcG-Xn-wPO"/>
-        <segue reference="aaz-Cs-7Ck"/>
         <segue reference="ZwZ-CR-4z7"/>
         <segue reference="E79-I6-G9q"/>
-        <segue reference="EoY-cm-4ex"/>
+        <segue reference="G3S-64-sig"/>
+        <segue reference="aaz-Cs-7Ck"/>
+        <segue reference="bcG-Xn-wPO"/>
     </inferredMetricsTieBreakers>
 </document>
